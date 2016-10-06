@@ -1,0 +1,13 @@
+body {
+    background-image:url(images/background.png);
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: Verdana,Palatino,Arial;
+    font-size: 95%;
+}
+table {
+    background-image:url(images/backfortables.png);
+    border-radius: 5px;
+    border-color:dimgray;
+}
