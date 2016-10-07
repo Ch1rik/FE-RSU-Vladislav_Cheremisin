@@ -1,13 +1,50 @@
 body {
     background-image:url(images/background.png);
     color: white;
-    margin-top: 30px;
-    margin-bottom: 30px;
     font-family: Verdana,Palatino,Arial;
     font-size: 95%;
+    margin:0px;
 }
-table {
+#table1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
     background-image:url(images/backfortables.png);
     border-radius: 5px;
     border-color:dimgray;
+}
+#table2 {
+    background-color: white;
+    margin-top: 0px;
+    color: black;
+    border-bottom-color: dimgray;
+    background-color: lightgray;
+    font-family: Verdana,Palatino,Arial;
+    text-align: center;
+}
+#button1 {
+    color: white;
+}
+#button1:hover {
+    color: lightgray;
+}
+#button1:active {
+    color: white;
+}
+#mainbutton1 {
+    color: black;
+}
+#mainbutton1:hover {
+    color: dimgray;
+}
+#mainbutton1:active {
+    color: black;
+}
+#mainbutton2 {
+    color: black;
+}
+#mainbutton2:hover {
+    color: dimgray;
+}
+#mainbutton2:active {
+    color: black;
 }
