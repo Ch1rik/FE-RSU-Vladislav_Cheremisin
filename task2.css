@@ -48,3 +48,30 @@ body {
 #mainbutton2:active {
     color: black;
 }
+#button2 {
+    color: white;
+}
+#button2:hover {
+    color: lightgray;
+}
+#button2:active {
+    color: white;
+}
+#infobutton1 {
+    color: black;
+}
+#infobutton1:hover {
+    color: dimgray;
+}
+#infobutton1:active {
+    color: black;
+}
+#infobutton2 {
+    color: black;
+}
+#infobutton2:hover {
+    color: dimgray;
+}
+#infobutton2:active {
+    color: black;
+}
