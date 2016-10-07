@@ -75,3 +75,30 @@ body {
 #infobutton2:active {
     color: black;
 }
+#button3 {
+    color: white;
+}
+#button3:hover {
+    color: lightgray;
+}
+#button3:active {
+    color: white;
+}
+#contbutton1 {
+    color: black;
+}
+#contbutton1:hover {
+    color: dimgray;
+}
+#contbutton1:active {
+    color: black;
+}
+#contbutton2 {
+    color: black;
+}
+#contbutton2:hover {
+    color: dimgray;
+}
+#contbutton2:active {
+    color: black;
+}
