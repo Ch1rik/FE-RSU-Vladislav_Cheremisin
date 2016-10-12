@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task2</title>
+</head>
+<body>
+    <h1>Registration form</h1>
+    <form action="http://httpbin.org/get">
+        <fieldset>
+            <legend>Personal Data</legend>
+            <table>
+            <tr>
+            <td><label for="1">First name</label></td>
+            <td><input id="1" type="text" name="Firstname" pattern="^[a-zA-Z]+$" title="Please use A-Z without symbols."></td>
+            </tr>
+            <tr>
+                <td><label for="2">Middle name</label></td>
+                <td><input id="2" type="text" name="Middlename" pattern="^[a-zA-Z]+$" title="Please use A-Z without symbols."></td>
+            </tr>
+            <tr>
+            <td><label for="3">Surname</label></td>
+            <td><input id="3" type="text" name="Surname" pattern="^[a-zA-Z]+$" title="Please use A-Z without symbols."></td>
+            </tr>
+               <tr>
+                <td rowspan="2">Sex</td>
+                   <td><input type="radio" name="Sex" value="male" checked>Male</td>
+                </tr>
+                <tr>
+                <td><input type="radio" name="Sex" value="female">Female</td>
+                </tr>
+                <tr>
+                <td><label for="4">Age</label></td>
+                <td><input id="4" type="number" name="Age" min="18" max="99"></td>
+                </tr>
+                <tr>                
+                <td><label for="5">Country</label></td>
+                <td><input list="Country" id="5" name="Country"></td>
+                  <datalist id="Country">
+                  <option value="Russian Federation">
+                  <option value="United States of America">
+                  <option value="China">
+                  <option value="Japan">
+                  <option value="Other">
+                  </datalist>
+                 </tr>
+                 <tr>
+                  <td>City</td>
+                  <td><input type="checkbox" name="City" value="Ryazan">Ryazan <input type="checkbox" name="City" value="Moscow">Moscow</td>
+                 </tr>
+                 <tr>
+                  <td>Photography</td>
+                  <td><input type="file" name="Photo" multiple accept="image/*"></td>
+                 </tr> 
+                 </table>
+                 <hr>
+                 <table>
+                 <tr>
+                  <td width="70">Title </td>
+                  <td><select name="Title" multiple size="8" align="bottom">
+                  <optgroup label="Technologies">
+                  <option value="Web Master">Web Master</option>
+                  <option value="Database Administrator">Database Administrator</option>
+                  <option value="Computer-aided design">Computer-aided design</option>
+                  </optgroup>
+                  <optgroup label="Finance">
+                  <option value="Economic Planning">Economic Planning</option>
+                  <option value="Management accounting">Management accounting</option>
+                  <option value="Budgeting and planning">Budgeting and planning</option>
+                  </optgroup>
+                  </select></td>
+                  </tr>
+                  <tr>
+                  <td>Salary</td>
+                  <td><input type="range" name="Salary" min="1000" max="50000" step="1000" value="25000"></td>
+                  </tr>
+                  </table>
+                  <p>
+                  <textarea name="About yourself" rows="10" cols="50" placeholder="Tell us about yoursefl..."></textarea> 
+                  </p>
+        </fieldset>
+         <fieldset>
+                <legend>Contact Information</legend>
+                <table>
+                <tr>
+                <td><label for="6">Site</label></td>
+                <td><input type="url" id="6" name="Site"></td>
+                </tr>
+                <tr>
+                <td><label for="7">Email</label></td>
+                <td><input type="email" id="7" name="Email"></td>
+                </tr>
+                <tr>
+                <td><label for="8">Phone</label></td>
+                <td><input type="tel" id="8" name="Phone"></td>
+                </tr>
+                </table>
+        </fieldset>
+        <p><label for="9">Password</label> <input type="text" id="9" name="Password" required pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*" title="Your password is very easy to hack! Please use minimum 8 symbols, one number, one letter in upper case and one in the lower case."></p>
+                <p><input type="submit"> <input type="reset"></p>
+    </form>
+</body>
+</html>
