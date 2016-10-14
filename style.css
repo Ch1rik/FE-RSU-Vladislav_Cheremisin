@@ -1,0 +1,93 @@
+.wh {
+    background-color: red;
+    width: 25px;
+    height: 15px;
+}
+.margin {
+    background-color: red;
+    margin: 10px;
+}
+.Padding {
+    background-color: red;
+    padding: 10px;
+}
+.image {
+  height: 200px;
+  background-image: url(http://333v.ru/uploads/0f/0f4e66ad42c86e912cbb9785ddbd6c5b.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.bgc {
+    background-color: lightgray;
+}
+.px {
+    font-size: 20px;
+}
+.rem {
+    font-size: 2rem;
+}
+.red {
+    background-color: #ff0000;
+}
+.green {
+    background-color: #00ff00;
+}
+.blue {
+    background-color: #0000ff;
+    color: snow;
+}
+.rgba {
+    background-color: rgba(100,100,55,.1);
+}
+.align {
+    text-align: center;
+}
+.group1,.group2 {
+    background-color: dimgray;
+    color: white;
+}
+.families {
+    font-family: verdana;
+}
+.style {
+    font-style: italic;
+}
+.variant {
+    font-variant: small-caps;
+}
+.bold {
+    font-weight: bold;
+}
+.tcolor {
+    color: greenyellow;
+}
+.underline {
+    text-decoration: underline
+}
+.transformation {
+    text-transform: capitalize;
+}
+.indent {
+    text-indent: 20px;
+}
+.rtl {
+    direction: rtl;
+}
+.space {
+    letter-spacing: 20px;
+}
+.lineh {
+    line-height: 50px;
+}
+.shadow {
+    text-shadow: 0 0 10px #ff0000;
+}
+span {
+    vertical-align: super;
+}
+.ws {
+    white-space: pre;
+}
+.wrs {
+    word-spacing: 50px;
+}
