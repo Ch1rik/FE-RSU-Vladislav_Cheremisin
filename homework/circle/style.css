@@ -1,0 +1,7 @@
+.circlebox {
+	display: inline-block;
+	width: 300px;
+	height: 200px;
+	border: 2px solid rgb(204,204,204);
+	background: radial-gradient(circle, rgb(0,188,158) 30%,white 30%);
+}

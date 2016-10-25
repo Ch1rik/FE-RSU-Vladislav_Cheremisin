@@ -1,0 +1,15 @@
+.adaptive {
+    display: inline-block;
+    background-color: rgb(202,216,208);
+    width: 90%;
+    margin: 0 5%;
+}
+@media (max-width: 600px) {
+.adaptive {
+    display: inline-block;
+    background-color: rgb(202,216,208);
+    width: 90%;
+    margin: 0 5%;
+    font-size: 1.3rem;
+}
+}

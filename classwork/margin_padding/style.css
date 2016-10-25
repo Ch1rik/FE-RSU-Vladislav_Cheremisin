@@ -1,0 +1,23 @@
+.firstblock {
+	width: 292px; 
+	height: 75px;
+	background-color: rgb(86,144,153);
+	color: white;
+	font-size: 1.8rem;
+	font-weight: bold;
+	padding-left: 13px;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	padding-right: 20px;
+	margin-top: 17px;
+}
+.secondblock {
+	margin-top: 22px;
+	width: 285px;
+	height: 87px;
+	background-color: rgb(202,216,208);
+	padding-top: 13px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 30px;
+}

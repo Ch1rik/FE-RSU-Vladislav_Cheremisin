@@ -1,0 +1,20 @@
+body {
+	margin-left: 40%;
+	margin-top: 20%;
+}
+a{
+    font-size: 2rem;
+	color: blue;
+    margin-left: 15px;
+    text-decoration: none;
+	transition: all 1s;
+	padding: 0 15px 0 0;
+	text-transform: capitalize;
+}
+a:not(:last-of-type){
+    border-right: 1px solid red;
+}
+a:hover:not(:last-of-type){
+    border-bottom: 4px solid blue;
+    border-right: hidden;
+}

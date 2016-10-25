@@ -1,0 +1,28 @@
+body{
+	text-align: center;
+	margin-top: 20%;
+}
+.loader{
+	display: inline-block;
+    width: 50px;
+	height: 35px;
+    color: blue;
+	padding: 10px;
+	padding-top: 25px;
+	border-radius: 50%;
+	border: 3px dashed blue;
+	animation-name: loader;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-direction: alternate-reverse;
+}
+@keyframes loader {
+	0% {
+	border: 1px dashed blue;
+		text-shadow: 0 0 0px lightblue;
+	}
+	100% {
+	border: 16px dashed blue;
+		text-shadow: 0 0 50px lightblue;
+}
+}
