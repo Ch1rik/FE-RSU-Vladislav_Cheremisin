@@ -8,8 +8,8 @@ document.write("This is second variable:", b, "<br>");
 //Task number 2.
 
 function Trangle(a, b) {
-	var s = (0.5 * a * b);
-	document.write("<br>",s);
+var s = (0.5 * a * b);
+document.write("<br>",s);
 }
 Trangle(a, b);
 
@@ -22,36 +22,36 @@ var rev=["one","two","three","four","five"];
 
 document.write("<br>");
 function rev1(){
-	var x=rev.length;
-	while (x > 0) {
-		x --
-		var y=rev[x];
-		document.write("<br>",y);
-	}
+var x=rev.length;
+while (x > 0) {
+x --;
+y=rev[x];
+document.write("<br>",y);
+}
 }
 rev1();
 
 //Var 2 with "do while"
 
-document.write("<br>")
+document.write("<br>");
 function rev2(){
-	var x=rev.length;
-	do {
-		x--
-		var y=rev[x];
-		document.write("<br>",y);
-	} while(x>0);
+var x=rev.length;
+do {
+x--;
+y=rev[x];
+document.write("<br>",y);
+} while(x>0);
 }
 rev2();
 
 //Var 3 with "for"
 
-document.write("<br>")
+document.write("<br>");
 function rev3(){
-	for (var x=rev.length - 1; x >= 0; x--) {
-		var y=rev[x];
-		document.write("<br>",y);
-	}
+for (var x=rev.length - 1; x >= 0; x--) {
+var y=rev[x];
+document.write("<br>",y);
+}
 }
 rev3();
 
@@ -60,18 +60,18 @@ rev3();
 document.write("<br>");
 
 function pre(){
-	var v = 1;
-	var i = ++v;
-	document.write("<br>","Here \"++\" before variable which = 1:","<br>", i);
+var v = 1;
+var i = ++v;
+document.write("<br>","Here \"++\" before variable which = 1:","<br>", i);
 }
 pre();
 
 document.write("<br>");
 
 function pre1(){
-	var v = 1;
-	var i = v++;
-	document.write("<br>","Here \"++\" after variable which = 1:","<br>", i);
+var v = 1;
+var i = v++;
+document.write("<br>","Here \"++\" after variable which = 1:","<br>", i);
 }
 pre1();
 
@@ -80,14 +80,14 @@ document.write("<br><br>","You can see what both operations which add \"++\" bef
 //Task number 5.
 
 document.write("<br>","<br>");
-var number=0;
+var number=1;
 function possitive(){
 if (number < 0) {
-	document.write("number <", 0)
+document.write("number <", 0)
 } else if (number > 0) {
-	document.write("number >", 0)
+document.write("number >", 0)
 } else {
-	document.write("number =", 0)
+document.write("number =", 0)
 }
 }
 possitive();
@@ -103,11 +103,11 @@ alert("Your name is:" + name);
 var f=5
 
 function factorial(f){
-	var factorial=f;
-	while (f!=1){
-		factorial=factorial*(f-1);
-		f--;
-	}
-	document.write(factorial);
+var factorial=f;
+while (f!=1){
+factorial=factorial*(f-1);
+f--;
+}
+document.write(factorial);
 }
 factorial(f);
