@@ -1,0 +1,138 @@
+/* Main Data */
+.content {
+    width: 700px;
+}
+.hover {
+    background-color: rgba(46,46,46,.7);
+    width: 180px;
+    height: 131px;
+    color: white;
+    text-align: center;
+    padding-top: 70px;
+    position: relative;
+    margin: 10px;
+    opacity: 0;
+}
+.hover:hover {
+    opacity: 1;
+}
+.by {
+    margin-top: 0px;
+    color: rgb(162,162,162);
+}
+.theme {
+    color: rgb(132,202,58);
+}
+.th {
+    width: 180px;
+    height: 200px;
+    margin: 10px;
+    position: absolute;
+}
+/* Layout with using Float */
+
+.floatbox {
+    margin-left: 15px;
+}
+.item {
+    float: left;
+    width: 200px;
+    height: 220px;
+    outline: 1px solid rgb(200,200,200);
+    background-size: contain;
+    margin-right: 23px;
+    margin-bottom: 70px;
+}
+.Details, .Demo {
+    margin-top: 15px;
+    background: linear-gradient(to bottom,white,#f1f2eb);
+    border: 1px solid #ced1c5;
+    border-radius: 3px;
+    color: rgb(159,130,130);
+}
+.Details:hover, .Demo:hover{
+    background: linear-gradient(to bottom,#98c95f,#97c85d);
+    color: white;
+    cursor: pointer;
+}
+.Details {
+    width: 80px;
+    height: 30px;
+    float: left;
+}
+.Demo {
+    float: right;
+    width: 105px;
+    height: 30px;
+}
+/* Layout with using inline-blocks */
+.inline-box{
+    margin-left: 15px;
+}
+.item2 {
+    display: inline-block;
+    width: 200px;
+    height: 220px;
+    outline: 1px solid rgb(200,200,200);
+    background-size: contain;
+    margin-right: 19px;
+    margin-bottom: 70px;
+}
+.Details2, .Demo2 {
+    display: inline-block;
+    margin-top: 15px;
+    background: linear-gradient(to bottom,white,#f1f2eb);
+    border: 1px solid #ced1c5;
+    border-radius: 3px;
+    color: rgb(159,130,130);
+}
+.Details2:hover, .Demo2:hover{
+    background: linear-gradient(to bottom,#98c95f,#97c85d);
+    color: white;
+    cursor: pointer;
+}
+.Details2 {
+    width: 80px;
+    height: 30px;;
+}
+.Demo2 {
+    width: 105px;
+    height: 30px;
+    margin-left: 11px;
+}
+/* Layout with using flex-box */
+
+.flex-box{
+    margin-left: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.item3 {
+    width: 200px;
+    height: 220px;
+    outline: 1px solid rgb(200,200,200);
+    background-size: contain;
+    margin-right: 23px;
+    margin-bottom: 70px;
+}
+.Details3, .Demo3 {
+    margin-top: 15px;
+    background: linear-gradient(to bottom,white,#f1f2eb);
+    border: 1px solid #ced1c5;
+    border-radius: 3px;
+    color: rgb(159,130,130);
+}
+.Details3:hover, .Demo3:hover{
+    background: linear-gradient(to bottom,#98c95f,#97c85d);
+    color: white;
+    cursor: pointer;
+}
+.Details3 {
+    width: 80px;
+    height: 30px;;
+}
+.Demo3 {
+    width: 105px;
+    height: 30px;
+    margin-left: 11px;
+}

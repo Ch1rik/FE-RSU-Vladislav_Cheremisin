@@ -1,0 +1,40 @@
+body {
+	font-family: Arial,sans-serif;
+}
+.box {
+	background-color: rgb(160,223,209);
+	height: auto;
+	width: 25%;
+	min-width: 110px;
+	padding: 7px 12px;
+	border: 2px solid rgb(106,173,158);
+	border-radius: 5px;
+}
+.box__content {
+	background-color: transparent;
+	border: 1px solid rgb(53,195,174);
+	margin: 0px;
+}
+h1 {
+	font-size: 1.4rem;
+	font-weight: 100;
+	background:linear-gradient(to bottom, rgb(255,215,0),rgb(255,193,0));
+	background-color: rgb(255,215,0);
+	margin: 0px;
+	padding: 10px;
+}
+p {
+	background-color: rgb(237,236,222);
+	margin: 0px;
+	color: rgb(140,125,139);
+	padding: 15px 10px;
+}
+h1:after {
+	content: "";
+    display: block;
+    position: absolute;
+    border-left: 14px solid transparent;
+    border-right: 14px solid transparent;
+    border-top: 14px solid rgb(255,185,0);
+	margin-top: 10px;
+}

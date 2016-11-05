@@ -1,0 +1,32 @@
+.box {
+	display: inline-block;
+	width: 870px;
+	height: 220px;
+	background-color: rgb(166,139,221);
+	border-radius: 10px;
+	border-top-left-radius: 0px;
+	box-shadow: 0 0 10px black;
+	padding: 15px;
+	color: rgb(130,91,207);
+	z-index: 1;
+	margin: 40px;
+}
+.box:before {
+	content: "Caption";
+	display: block;
+	height: 20px;
+	width: 70px;
+	background-color: rgb(166,139,221);
+	position: absolute;
+	top: 7px;
+	left: 48px;
+	font-size: 1.1rem;
+	font-weight: 600;
+	font-family: Arial,sans-serif;
+	padding: 10px 15px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	z-index: -1;
+	border: 1px solid rgb(68,84,191);
+	box-shadow: 0 0 10px black;
+}
