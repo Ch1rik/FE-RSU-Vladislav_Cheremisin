@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS Layout</title>
+	<link rel="stylesheet" href="general.css">
+	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<form action="#"><button class="header__button" type="submit">Help Center</button></form>
+			<div class="header__dot"></div>
+			<form action="#"><button class="header__button" type="submit">Our Support</button></form>
+			<div class="header__profile">
+			<div class="header__profile__icon"></div>
+			<div class="header__profile__info">Conor McGregor</div>
+			</div>
+		</div>
+		<div class="main">
+			<div class="main__menu">
+				<div class="main__menu__block">
+					<form action="#"><button class="main__menu__block__button" type="submit">Add a book</button></form>
+				</div>
+				<div class="main__menu__block2">
+					<form action="#"><button class="main__menu__block2__button" type="submit">Now Reading</button></form>
+					<form action="#"><button class="main__menu__block2__button2" type="submit">Browse</button></form>
+					<form action="#"><button class="main__menu__block2__button3" type="submit">Buy Books</button></form>
+					<form action="#"><button class="main__menu__block2__button4" type="submit">Favourite Books</button></form>
+					<form action="#"><button class="main__menu__block2__button5" type="submit">Wishlist</button></form>
+					<form action="#"><button class="main__menu__block2__button6" type="submit">History</button></form>
+				</div>
+				<div class="main__menu__block3">
+					<form action="#"><button class="main__menu__block3__button" type="submit">Must Read Titles</button></form>
+					<form action="#"><button class="main__menu__block3__button2" type="submit">Best Of List</button></form>
+					<form action="#"><button class="main__menu__block3__button3" type="submit">Classic Novels</button></form>
+					<form action="#"><button class="main__menu__block3__button4" type="submit">Non Fiction</button></form>
+				</div>
+				<div class="main__menu__block4">
+					<table>
+						<tr>
+							<td class="td1"><i class="fa fa-clock-o" aria-hidden="true"></i></td>
+							<td><div class="main__menu__block4__block">You added <a href="#" class="main__menu__block4__block--link">Fight Club</a> by <a href="#" class="main__menu__block4__block--link">Chuck Palahniuk</a> to your <a href="#" class="main__menu__block4__block--link">Must Read Titles.</a></div>
+							<p class="main__menu__block4__block--time">24 minutes ago</p></td>
+						</tr>
+						<tr>
+							<td class="td1"><i class="fa fa-clock-o" aria-hidden="true"></i></td>
+							<td><div class="main__menu__block4__block2">You added <a href="#" class="main__menu__block4__block--link">The Trial</a> by <a href="#" class="main__menu__block4__block--link">Franz Kafka</a> to your <a href="#" class="main__menu__block4__block--link">Must Read Titles</a>.</div>
+							<p class="main__menu__block4__block--time">48 minutes ago</p></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="main__content">
+				<div class="main__content__header"><p class="main__content__header__text">Browse Available Books</p></div>
+				<div class="main__content__menu">
+					<div class="main__content__menu__left">
+						<form action="#"><button class="main__content__menu__left__button" type="submit">All Books</button></form>
+						<form action="#"><button class="main__content__menu__left__button" type="submit">Most Recent</button></form>
+						<form action="#"><button class="main__content__menu__left__button" type="submit">Most Popular</button></form>
+						<form action="#"><button class="main__content__menu__left__button" type="submit">Free Books</button></form>
+					</div>
+					<div class="main__content__menu__right">
+						<form action="#">
+							<div class="search">
+								<input type="search" class="main__content__menu__right__searchform" value="Enter Keywords">
+								<button type="submit" class="main__content__menu__right__submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="main__content__content">
+					<div class="main__content__content__item">
+						<img src="images/books/image_1.png" alt="image" class="main__content__content__item--image">
+						<div class="main__content__content__item--bookname">Jewels of Nizam</div>
+						<div class="main__content__content__item--autor">by Geeta Devi</div>
+						<div class="main__content__content__item--rating">
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+						</div>
+					</div>
+					<div class="main__content__content__item">
+						<img src="images/books/image_2.png" alt="image" class="main__content__content__item--image">
+						<div class="main__content__content__item--bookname">Cakes &amp; Bakes</div>
+						<div class="main__content__content__item--autor">by Sanjeev Kapoor</div>
+						<div class="main__content__content__item--rating">
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+						</div>
+					</div>
+					<div class="main__content__content__item">
+						<img src="images/books/image_3.png" alt="image" class="main__content__content__item--image">
+						<div class="main__content__content__item--bookname">Jamie's Kitchen</div>
+						<div class="main__content__content__item--autor">by Jamie Oliver</div>
+						<div class="main__content__content__item--rating">
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star-half-o" aria-hidden="true"></i>
+						</div>
+					</div>
+					<div class="main__content__content__item">
+						<img src="images/books/image_4.png" alt="image" class="main__content__content__item--image">
+						<div class="main__content__content__item--bookname">Inexpensive Family Meals</div>
+						<div class="main__content__content__item--autor">by Simon Holst</div>
+						<div class="main__content__content__item--rating">
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star-o" aria-hidden="true"></i>
+						</div>
+					</div>
+					<div class="main__content__content__item">
+						<img src="images/books/image_5.png" alt="image" class="main__content__content__item--image">
+						<div class="main__content__content__item--bookname">Paleo Slow Cooking</div>
+						<div class="main__content__content__item--autor">by Chrissy Gower</div>
+						<div class="main__content__content__item--rating">
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star-half-o" aria-hidden="true"></i>
+						</div>
+					</div>
+					<div class="main__content__content__item">
+						<img src="images/books/image_6.png" alt="image" class="main__content__content__item--image">
+						<div class="main__content__content__item--bookname">Cook Like an Italian</div>
+						<div class="main__content__content__item--autor">by Tobie Puttock</div>
+						<div class="main__content__content__item--rating">
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star-o" aria-hidden="true"></i>
+						</div>
+					</div>
+					<div class="main__content__content__item">
+						<img src="images/books/image_7.png" alt="image" class="main__content__content__item--image">
+						<div class="main__content__content__item--bookname">Suneeta Vaswani</div>
+						<div class="main__content__content__item--autor">by Geeta Devi</div>
+						<div class="main__content__content__item--rating">
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+						</div>
+					</div>
+					<div class="main__content__content__item">
+						<img src="images/books/image_8.png" alt="image" class="main__content__content__item--image">
+						<div class="main__content__content__item--bookname">Jamie Does</div>
+						<div class="main__content__content__item--autor">by Jamie Oliver</div>
+						<div class="main__content__content__item--rating">
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star-o" aria-hidden="true"></i>
+						</div>
+					</div>
+					<div class="main__content__content__item">
+						<img src="images/books/image_9.png" alt="image" class="main__content__content__item--image">
+						<div class="main__content__content__item--bookname">Jamie's Italy</div>
+						<div class="main__content__content__item--autor">by Jamie Oliver</div>
+						<div class="main__content__content__item--rating">
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+						</div>
+					</div>
+					<div class="main__content__content__item">
+						<img src="images/books/image_10.png" alt="image" class="main__content__content__item--image">
+						<div class="main__content__content__item--bookname">Vegetables Cookbook</div>
+						<div class="main__content__content__item--autor">by Matthew Biggs</div>
+						<div class="main__content__content__item--rating">
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star-half-o" aria-hidden="true"></i>
+							<i class="fa fa-star-o" aria-hidden="true"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<form action="#"><button class="footer__button"><i class="fa fa-question-circle" aria-hidden="true"></i>
+</button></form>
+			<form action="#"><button class="footer__button2"><i class="fa fa-cog" aria-hidden="true"></i>
+</button></form>
+		</div>
+	</div>
+</body>
+</html>

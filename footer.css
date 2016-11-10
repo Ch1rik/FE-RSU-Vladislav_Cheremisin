@@ -1,0 +1,31 @@
+.footer {
+	display: flex;
+	width: 100%;
+	height: 45px;
+	background-color: rgb(47,54,73);
+	border-radius: 0px 0px 5px 5px;
+	justify-content: flex-end;
+	min-width: 795px;
+}
+.footer__button:focus, .footer__button2:focus {
+	outline: 0px;
+}
+.footer__button {
+	height: 100%;
+	border: 0px;
+	width: 55px;
+	color: white;
+	background-color: rgb(31,38,56);
+}
+.footer__button2 {
+	height: 100%;
+	border: 0px;
+	width: 55px;
+	color: white;
+	background-color: rgb(22,164,250);
+	border-bottom-right-radius: 5px;
+}
+.footer__button:hover, .footer__button2:hover{
+	cursor: pointer;
+	background-color: rgb(22,164,250);
+}
